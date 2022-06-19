@@ -43,3 +43,18 @@ a {
 .message-card .card-footer span {
   color:rgb(94, 122, 122)
 }
+
+.formCard {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+#submit-btn {
+  width: 10%;
+}
