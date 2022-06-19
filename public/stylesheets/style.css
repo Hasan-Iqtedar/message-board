@@ -5,7 +5,11 @@ body {
 }
 
 a {
+  float: right;
   color: #00B7FF;
+  margin-right: 5%;
+  margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .header {

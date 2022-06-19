@@ -3,6 +3,7 @@ extends layout
 block content
   header(class='header')
     h1=title
+  a(href="/new")='New Message' 
   each msg in messages
     div(class='message-card')= msg.text
       div(class='card-footer')
