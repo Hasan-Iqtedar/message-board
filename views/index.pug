@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  header(class='header')
+    h1=title
+  each msg in messages
+    div(class='message-card')= msg.text
+      div(class='card-footer')
+        span=msg.user 
+        span=msg.date.toDateString()
+  

@@ -1,8 +1,45 @@
 body {
-  padding: 50px;
+  padding-bottom: 50px;
+  margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.header {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  background-color: teal;
+}
+
+.message-card {
+  display: flex;
+  width: 90%;
+  height: 120px;
+  padding: 10px;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  color: rgb(6, 88, 88);
+  background-color: rgb(221, 231, 235);
+}
+
+.message-card .card-footer {
+  display: flex;
+  margin-top: auto;
+  padding-top: 3px;
+  justify-content: space-between;
+  border-top: 1px solid #bdd6d6;
+}
+
+.message-card .card-footer span {
+  color:rgb(94, 122, 122)
 }
