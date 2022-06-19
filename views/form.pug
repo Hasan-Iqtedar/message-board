@@ -6,9 +6,9 @@ block content
   form(method='post', action="/new")
     div(class='formCard')
       label(for="msg")= 'New Message: ' 
-      input(id='msg', name='message', type="text")
+      input(id='msg', name='message', type="text", required)
         
       label(for="user")= 'User: ' 
-      input(id='user', name='user', type="text")
+      input(id='user', name='user', type="text", required)
 
       input(id='submit-btn', type="submit", value="Send")
